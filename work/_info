@@ -1,0 +1,521 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/19.2
+Eaccumulator
+Z0 w1694804610
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dF:/VHDL/Enib/labo2
+Z5 8F:/VHDL/Enib/labo2/work/mu0.vhd
+Z6 FF:/VHDL/Enib/labo2/work/mu0.vhd
+l0
+L98
+V7KJL6OKFeSM01S^0TFPWY3
+!s100 bXPX`?U=eUin;?WYA2S_;0
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1695051178
+!i10b 1
+Z9 !s108 1695051178.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/mu0.vhd|
+Z11 !s107 F:/VHDL/Enib/labo2/work/mu0.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Aarch_acc
+R1
+R2
+R3
+Z14 DEx4 work 11 accumulator 0 22 7KJL6OKFeSM01S^0TFPWY3
+l107
+L105
+VDzKAnYN@`USeW27888fQ<1
+!s100 DbYiGicU=A6S43IdbQg3h1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+R0
+Z15 DPx4 work 7 up_pack 0 22 <WCGOhcB_?<DLbzR>C<133
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L70
+VY>3mNJfT[N6@YZ6WSEDFL0
+!s100 GXklE?fl_90@H=YScFDgj1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_alu
+R15
+R1
+R2
+R3
+Z16 DEx4 work 3 alu 0 22 Y>3mNJfT[N6@YZ6WSEDFL0
+l78
+L76
+VQ1<@7BLFzJkGf_K62KASz0
+!s100 GBimh4oN]Y<Ho@Y6D9eEM3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eir_reg
+R0
+R15
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L155
+V;`4:IbEBDK`0Nz0NaeY0b1
+!s100 anT0ZE[6_:5HkHDNmklb02
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_ir_reg
+R15
+R1
+R2
+R3
+Z17 DEx4 work 6 ir_reg 0 22 ;`4:IbEBDK`0Nz0NaeY0b1
+l164
+L162
+V6Pe_mnLISKgQHLTYean`93
+!s100 mPMI^`o=^3R^DF8Q5;^N:2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emu0
+R0
+R15
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L340
+Vi7G>j@:g5gSbL2nIDjfj?0
+!s100 `79fa9?o6hU525UK8a;Lg3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_mu0
+Z18 DEx4 work 10 sequenceur 0 22 c>a4I>l1oDDg]KQ2n12LG1
+Z19 DEx4 work 8 tristate 0 22 W^5R:GoZgoQRm=_3C1hIM1
+Z20 DEx4 work 5 mux_b 0 22 `UB<zKQk_dj1dfhCF_UXa1
+R14
+R16
+R17
+Z21 DEx4 work 6 pc_reg 0 22 c]7^mAe05iG^PC6:jTWTd3
+Z22 DEx4 work 5 mux_a 0 22 >cNVf3PCLnH?ajKP51QkH2
+R15
+R1
+R2
+R3
+Z23 DEx4 work 3 mu0 0 22 i7G>j@:g5gSbL2nIDjfj?0
+l367
+L349
+V_>?@Skh;cSnQ]lW^gIUdm3
+!s100 g?k[5fkAD9A3XjPYD>=@k3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emu0_mem
+Z24 w1695051156
+R1
+R2
+R3
+R4
+Z25 8F:/VHDL/Enib/labo2/work/mu0_mem.vhd
+Z26 FF:/VHDL/Enib/labo2/work/mu0_mem.vhd
+l0
+L8
+VOD3Ac1h_GF6V[UW0F9]hZ0
+!s100 9N;9I4hbR`>;IiG]ER3Qe0
+R7
+32
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/mu0_mem.vhd|
+Z28 !s107 F:/VHDL/Enib/labo2/work/mu0_mem.vhd|
+!i113 1
+R12
+R13
+Aarch_mu0_mem
+Z29 DEx4 work 4 ram0 0 22 ?:]9^5eGn2RMOTYJPzMPm0
+R15
+R23
+R1
+R2
+R3
+Z30 DEx4 work 7 mu0_mem 0 22 OD3Ac1h_GF6V[UW0F9]hZ0
+l20
+L17
+V@OPLKk=0=b]8>G[8E80Zd3
+!s100 _1A6OHDIn3Ef18<h]7ShQ2
+R7
+32
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Emux_a
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L30
+V>cNVf3PCLnH?ajKP51QkH2
+!s100 <9nf9boi[:TN_B]D;?bV72
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_mux_a
+R1
+R2
+R3
+R22
+l37
+L36
+V=GgMJQKaIQ>dP_aggFE[E0
+!s100 1QFMSUN_P0GWXUcWlWHm@3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Emux_b
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L49
+V`UB<zKQk_dj1dfhCF_UXa1
+!s100 V`gX1n^NGieJ=KbNc>BTB2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_mux_b
+R1
+R2
+R3
+R20
+l56
+L55
+VFhR8G2ATYl_BF0W?SmEgz2
+!s100 naS3DMcAI<;jZFXeM=QeJ0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Epc_reg
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L130
+Vc]7^mAe05iG^PC6:jTWTd3
+!s100 Y3@aW9z8JEU:Z0D1:`[kD0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_pc_reg
+R1
+R2
+R3
+R21
+l137
+L136
+V?5T:l4VWdbVLiUY<U6CJ@0
+!s100 blB7:UA1FHQdeIg5PegIA3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eram0
+Z31 w1678105730
+R1
+R2
+R3
+R4
+Z32 8F:/VHDL/Enib/labo2/work/memoire.vhd
+Z33 FF:/VHDL/Enib/labo2/work/memoire.vhd
+l0
+L7
+V?:]9^5eGn2RMOTYJPzMPm0
+!s100 GO3>n_?8B_5=8c5c_`9RJ2
+R7
+32
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/memoire.vhd|
+Z35 !s107 F:/VHDL/Enib/labo2/work/memoire.vhd|
+!i113 1
+R12
+R13
+Asyn
+R1
+R2
+R3
+R29
+l63
+L36
+VY7Z<^=hW91?`=k`aeJ0]10
+!s100 3GOeF8looz@8eXSOGX:X;1
+R7
+32
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Esequenceur
+R0
+R15
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L204
+Vc>a4I>l1oDDg]KQ2n12LG1
+!s100 X7nhVlC]eD:ILGT]7;I@A2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_seq
+R15
+R1
+R2
+R3
+R18
+l222
+L216
+V7TZalczSD8RFD9F63BjlY1
+!s100 =V`1P=IX9bMGnE_N1MezT1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etristate
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+l0
+L10
+VW^5R:GoZgoQRm=_3C1hIM1
+!s100 lF9?cJ7UG[jLfHRjbEdE:0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Aarch_tristate
+R1
+R2
+R3
+R19
+l17
+L16
+V7ocffEPz_<5ZR2H=eIZ_K0
+!s100 <e5I_7C;J4i@@@2WD[hJL1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Pup_pack
+R1
+R2
+R3
+R31
+R4
+Z36 8F:/VHDL/Enib/labo2/work/up_pack.vhd
+Z37 FF:/VHDL/Enib/labo2/work/up_pack.vhd
+l0
+L22
+V<WCGOhcB_?<DLbzR>C<133
+!s100 _CO]KGiHLF7S5MWBe>BaZ0
+R7
+32
+R8
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/up_pack.vhd|
+Z39 !s107 F:/VHDL/Enib/labo2/work/up_pack.vhd|
+!i113 1
+R12
+R13
+Bbody
+R15
+R1
+R2
+R3
+l0
+L48
+VZeV7jC4MDcCOZeZgLH=R73
+!s100 2I_90cb_?YR3nZ9D3AzIg1
+R7
+32
+R8
+!i10b 1
+R9
+R38
+R39
+!i113 1
+R12
+R13

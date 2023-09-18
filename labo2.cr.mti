@@ -1,0 +1,54 @@
+F:/VHDL/Enib/labo2/work/memoire.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/VHDL/Enib/labo2/work/memoire.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram0
+-- Compiling architecture syn of ram0
+
+} {} {}} F:/VHDL/Enib/labo2/work/mu0.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/VHDL/Enib/labo2/work/mu0.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tristate
+-- Compiling architecture arch_tristate of tristate
+-- Compiling entity mux_A
+-- Compiling architecture arch_mux_A of mux_A
+-- Compiling entity mux_B
+-- Compiling architecture arch_mux_B of mux_B
+-- Loading package up_pack
+-- Compiling entity alu
+-- Compiling architecture arch_alu of alu
+-- Compiling entity accumulator
+-- Compiling architecture arch_acc of accumulator
+-- Compiling entity pc_reg
+-- Compiling architecture arch_pc_reg of pc_reg
+-- Compiling entity ir_reg
+-- Compiling architecture arch_ir_reg of ir_reg
+-- Compiling entity sequenceur
+-- Compiling architecture arch_seq of sequenceur
+-- Compiling entity mu0
+-- Compiling architecture arch_mu0 of mu0
+-- Loading entity mux_A
+-- Loading entity pc_reg
+-- Loading entity ir_reg
+-- Loading entity alu
+-- Loading entity accumulator
+-- Loading entity mux_B
+-- Loading entity tristate
+-- Loading entity sequenceur
+
+} {} {}} F:/VHDL/Enib/labo2/work/up_pack.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/VHDL/Enib/labo2/work/up_pack.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling package up_pack
+-- Compiling package body up_pack
+-- Loading package up_pack
+
+} {} {}}
