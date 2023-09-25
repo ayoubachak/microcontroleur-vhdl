@@ -94,30 +94,36 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-
 entity accumulator is
-  port( clk, raz, load : in std_logic;
-        data_in : in std_logic_vector(15 downto 0);
-        data_out : out std_logic_vector(15 downto 0);
-        acc15, accz : out std_logic );
+  port (
+    clk      : in std_logic;
+    raz      : in std_logic;
+    load     : in std_logic;
+    data_in  : in std_logic_vector(15 downto 0);
+    data_out : out std_logic_vector(15 downto 0);
+    acc15    : out std_logic;
+    accz     : out std_logic
+  );
 end accumulator;
 
 architecture arch_acc of accumulator is
   signal q_reg : std_logic_vector(15 downto 0);
-  begin   
-	process(clk)
-	begin
-		if rising_edge (clk) then 
-			if raz ='1' then q_reg <= "0000000000000000";
-			elsif load = '1' then q_reg <= data_in;
-			if q_reg = "0000000000000000"  then accz <= '1' ;
-			end if;
-			end if;
-		end if;
-	acc15 <= q_reg(15);
-	end process;
+begin
+  process (clk, raz, load)
+  begin
+    if raz = '1' then
+      q_reg <= (others => '0'); -- Reset the accumulator to zero when raz = '1'
+    elsif rising_edge(clk) then
+      if load = '1' then
+        q_reg <= data_in; -- Load data_in into the accumulator when load = '1'
+      end if;
+    end if;
+  end process;
 
- 	data_out <= q_reg;      
+  acc15 <= q_reg(15); -- acc15 is the MSB of the accumulator
+  accz <= '1' when (q_reg = "0000000000000000") else '0'; -- accz is '1' when data_out is zero, otherwise '0'
+  
+  data_out <= q_reg;
 end arch_acc;
       
 ------------------------------------------------------
@@ -128,22 +134,30 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 entity pc_reg is
-  port( clk, raz, load : in std_logic;
-        data_in : in std_logic_vector(11 downto 0);
-        data_out : out std_logic_vector(11 downto 0) );
-end pc_reg; 
-
+  port (
+    clk      : in std_logic;
+    raz      : in std_logic;
+    load     : in std_logic;
+    data_in  : in std_logic_vector(11 downto 0);
+    data_out : out std_logic_vector(11 downto 0)
+  );
+end pc_reg;
 architecture arch_pc_reg of pc_reg is
-  begin   
-	process(clk)
-	begin
-		if rising_edge(clk) then
-			if raz = '1' then data_out <= (others=>'0');
-			elsif load = '1' then data_out <= data_in;
-			end if;
-		end if;
-	end process;
-end arch_pc_reg;  
+  signal q_reg : std_logic_vector(11 downto 0);
+begin
+  process (clk, raz, load)
+  begin
+    if raz = '1' then
+      q_reg <= (others => '0'); -- Reset the program counter to zero when raz = '1'
+    elsif rising_edge(clk) then
+      if load = '1' then
+        q_reg <= data_in; -- Load data_in into the program counter when load = '1'
+      end if;
+    end if;
+  end process;
+
+  data_out <= q_reg;
+end arch_pc_reg;
 ------------------------------------------------------
 --               REGISTRE IR (Instruction Register)
 ------------------------------------------------------
@@ -158,21 +172,28 @@ entity ir_reg is
         data_out : out std_logic_vector(11 downto 0);
         opcode : out OPCODE);
 end ir_reg; 
-
 architecture arch_ir_reg of ir_reg is
-signal interne :  std_logic_vector(3 downto 0);
+  signal interne : std_logic_vector(3 downto 0);
 begin  
- 
-	process(clk)
-	begin
-		if rising_edge(clk) then
-			if raz='1' then data_out <= (others => '0');
-			elsif load='1' then 
-				data_out <= data_in(11 downto 0);
-				interne <= data_in(15 downto 12);
-			end if;
-		end if;
-    end process;
+  process (clk)
+  begin
+    if rising_edge(clk) then
+      if raz = '1' then
+        data_out <= (others => '0');
+      elsif load = '1' then 
+        data_out <= data_in(11 downto 0);
+      end if;
+    end if;
+  end process;
+
+  process (clk)
+  begin
+    if rising_edge(clk) then
+      if load = '1' then 
+        interne <= data_in(15 downto 12);
+      end if;
+    end if;
+  end process;
 
 opcode <= OP_LDA when interne="0000" else
           OP_STO when interne="0001" else
@@ -354,7 +375,7 @@ architecture arch_mu0 of mu0 is
 	signal alu_out	: std_logic_vector(15 downto 0);	 		-- output of ALU
 	signal acc_out	: std_logic_vector(15 downto 0);	 		-- output of ACC	
 	signal muxb_out	: std_logic_vector(15 downto 0);	 		-- output of MUXb
-	signal concat	: std_logic_vector(15 downto 0);	
+	signal concatenation	: std_logic_vector(15 downto 0);	
 	signal alufs	: ALU_FCTS;		-- function code for alu
 	signal ir_ld	: std_logic;	-- load IR
 	signal pc_ld	: std_logic;	-- load PC
@@ -369,7 +390,7 @@ begin
 --***************************************
 --            A COMPLETER              --
 --***************************************
-concat <= "0000" & addr_bus; -- Utilisee plus tard pour e_0 du muxB
+concatenation <= "0000" & addr_bus; 
 
 muxA: entity mux_A port map(
                     e_0         =>      pc_out,
@@ -416,7 +437,7 @@ acc_reg: entity accumulator port map(
                 );
 
 muxB: entity mux_B port map(
-                    e_0         =>    concat,
+                    e_0         =>    concatenation,
                     e_1         =>    data_bus,
                     sel         =>    selB,
                     S           =>    muxb_out                  

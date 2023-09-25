@@ -19,9 +19,6 @@ signal MEMRQ	: std_logic;						-- memory request
 signal RNW	: std_logic;						 -- read/write op
 begin
 
---***************************************
---            A COMPLETER              --
---***************************************
 Microcontroller:   entity mu0 port map(
                     clk        =>      clk,
                     reset      =>      reset,

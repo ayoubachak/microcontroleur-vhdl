@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/19.2
 Eaccumulator
-Z0 w1694804610
+Z0 w1695634155
 Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -17,14 +17,14 @@ Z4 dF:/VHDL/Enib/labo2
 Z5 8F:/VHDL/Enib/labo2/work/mu0.vhd
 Z6 FF:/VHDL/Enib/labo2/work/mu0.vhd
 l0
-L98
-V7KJL6OKFeSM01S^0TFPWY3
-!s100 bXPX`?U=eUin;?WYA2S_;0
+L97
+VlAVOO94H]ZKmP@DDRna=41
+!s100 ARATTRDRZJ[CBlSofX`Hk3
 Z7 OV;C;10.5b;63
 32
-Z8 !s110 1695051178
+Z8 !s110 1695634170
 !i10b 1
-Z9 !s108 1695051178.000000
+Z9 !s108 1695634170.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/mu0.vhd|
 Z11 !s107 F:/VHDL/Enib/labo2/work/mu0.vhd|
 !i113 1
@@ -34,11 +34,11 @@ Aarch_acc
 R1
 R2
 R3
-Z14 DEx4 work 11 accumulator 0 22 7KJL6OKFeSM01S^0TFPWY3
-l107
-L105
-VDzKAnYN@`USeW27888fQ<1
-!s100 DbYiGicU=A6S43IdbQg3h1
+Z14 DEx4 work 11 accumulator 0 22 lAVOO94H]ZKmP@DDRna=41
+l111
+L109
+VFg6K?4`6U7J9:Q^fMlF2P1
+!s100 cmCDS7NfC5DIddIM2ODm>0
 R7
 32
 R8
@@ -102,9 +102,9 @@ R4
 R5
 R6
 l0
-L155
-V;`4:IbEBDK`0Nz0NaeY0b1
-!s100 anT0ZE[6_:5HkHDNmklb02
+L169
+V5[5021i?7jWnB:V5E8EWA3
+!s100 2`ig<co586JGB3cU@J<Lm2
 R7
 32
 R8
@@ -120,11 +120,11 @@ R15
 R1
 R2
 R3
-Z17 DEx4 work 6 ir_reg 0 22 ;`4:IbEBDK`0Nz0NaeY0b1
-l164
-L162
-V6Pe_mnLISKgQHLTYean`93
-!s100 mPMI^`o=^3R^DF8Q5;^N:2
+Z17 DEx4 work 6 ir_reg 0 22 5[5021i?7jWnB:V5E8EWA3
+l177
+L175
+VUeg`glaiH=6OX^EMm8Ze`3
+!s100 co5G6UDcf9Q848[WXIJF?3
 R7
 32
 R8
@@ -145,9 +145,9 @@ R4
 R5
 R6
 l0
-L340
-Vi7G>j@:g5gSbL2nIDjfj?0
-!s100 `79fa9?o6hU525UK8a;Lg3
+L361
+VXR5Y3KB3VHo4c9;75E_0;2
+!s100 lAXRg]J?j4]0C__=kKFiO1
 R7
 32
 R8
@@ -159,23 +159,23 @@ R11
 R12
 R13
 Aarch_mu0
-Z18 DEx4 work 10 sequenceur 0 22 c>a4I>l1oDDg]KQ2n12LG1
+Z18 DEx4 work 10 sequenceur 0 22 o0lW14P;m8RC=f@=<EY;o2
 Z19 DEx4 work 8 tristate 0 22 W^5R:GoZgoQRm=_3C1hIM1
 Z20 DEx4 work 5 mux_b 0 22 `UB<zKQk_dj1dfhCF_UXa1
 R14
 R16
 R17
-Z21 DEx4 work 6 pc_reg 0 22 c]7^mAe05iG^PC6:jTWTd3
+Z21 DEx4 work 6 pc_reg 0 22 aFDWH?L43:f1A7j0f^F>;3
 Z22 DEx4 work 5 mux_a 0 22 >cNVf3PCLnH?ajKP51QkH2
 R15
 R1
 R2
 R3
-Z23 DEx4 work 3 mu0 0 22 i7G>j@:g5gSbL2nIDjfj?0
-l367
-L349
-V_>?@Skh;cSnQ]lW^gIUdm3
-!s100 g?k[5fkAD9A3XjPYD>=@k3
+Z23 DEx4 work 3 mu0 0 22 XR5Y3KB3VHo4c9;75E_0;2
+l388
+L370
+VcZF6SBQT5VH^AN]@NM<>[1
+!s100 X[ZcGHI6FPKD:HG3;TR^31
 R7
 32
 R8
@@ -187,7 +187,7 @@ R11
 R12
 R13
 Emu0_mem
-Z24 w1695051156
+Z24 w1695634143
 R1
 R2
 R3
@@ -200,33 +200,33 @@ VOD3Ac1h_GF6V[UW0F9]hZ0
 !s100 9N;9I4hbR`>;IiG]ER3Qe0
 R7
 32
-R8
+Z27 !s110 1695634171
 !i10b 1
 R9
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/mu0_mem.vhd|
-Z28 !s107 F:/VHDL/Enib/labo2/work/mu0_mem.vhd|
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/mu0_mem.vhd|
+Z29 !s107 F:/VHDL/Enib/labo2/work/mu0_mem.vhd|
 !i113 1
 R12
 R13
 Aarch_mu0_mem
-Z29 DEx4 work 4 ram0 0 22 ?:]9^5eGn2RMOTYJPzMPm0
+Z30 DEx4 work 4 ram0 0 22 ?:]9^5eGn2RMOTYJPzMPm0
 R15
 R23
 R1
 R2
 R3
-Z30 DEx4 work 7 mu0_mem 0 22 OD3Ac1h_GF6V[UW0F9]hZ0
+Z31 DEx4 work 7 mu0_mem 0 22 OD3Ac1h_GF6V[UW0F9]hZ0
 l20
 L17
-V@OPLKk=0=b]8>G[8E80Zd3
-!s100 _1A6OHDIn3Ef18<h]7ShQ2
+Vg<LAQ:AXJILP;60`GO_[C1
+!s100 FT9H2:571;m>POeDodJo]3
 R7
 32
-R8
+R27
 !i10b 1
 R9
-R27
 R28
+R29
 !i113 1
 R12
 R13
@@ -321,9 +321,9 @@ R4
 R5
 R6
 l0
-L130
-Vc]7^mAe05iG^PC6:jTWTd3
-!s100 Y3@aW9z8JEU:Z0D1:`[kD0
+L136
+VaFDWH?L43:f1A7j0f^F>;3
+!s100 ndSQgdGIck:TA1oGEoNMY3
 R7
 32
 R8
@@ -339,10 +339,10 @@ R1
 R2
 R3
 R21
-l137
-L136
-V?5T:l4VWdbVLiUY<U6CJ@0
-!s100 blB7:UA1FHQdeIg5PegIA3
+l147
+L145
+VPThEo=Dn4WW6X5E[7ECA61
+!s100 ENe4f:MIM=FWIn35@969]1
 R7
 32
 R8
@@ -354,13 +354,13 @@ R11
 R12
 R13
 Eram0
-Z31 w1678105730
+Z32 w1678105730
 R1
 R2
 R3
 R4
-Z32 8F:/VHDL/Enib/labo2/work/memoire.vhd
-Z33 FF:/VHDL/Enib/labo2/work/memoire.vhd
+Z33 8F:/VHDL/Enib/labo2/work/memoire.vhd
+Z34 FF:/VHDL/Enib/labo2/work/memoire.vhd
 l0
 L7
 V?:]9^5eGn2RMOTYJPzMPm0
@@ -370,8 +370,8 @@ R7
 R8
 !i10b 1
 R9
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/memoire.vhd|
-Z35 !s107 F:/VHDL/Enib/labo2/work/memoire.vhd|
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/memoire.vhd|
+Z36 !s107 F:/VHDL/Enib/labo2/work/memoire.vhd|
 !i113 1
 R12
 R13
@@ -379,7 +379,7 @@ Asyn
 R1
 R2
 R3
-R29
+R30
 l63
 L36
 VY7Z<^=hW91?`=k`aeJ0]10
@@ -389,8 +389,8 @@ R7
 R8
 !i10b 1
 R9
-R34
 R35
+R36
 !i113 1
 R12
 R13
@@ -404,9 +404,9 @@ R4
 R5
 R6
 l0
-L204
-Vc>a4I>l1oDDg]KQ2n12LG1
-!s100 X7nhVlC]eD:ILGT]7;I@A2
+L225
+Vo0lW14P;m8RC=f@=<EY;o2
+!s100 ESf8l8U=_?_z83g@4Y0ln0
 R7
 32
 R8
@@ -423,10 +423,10 @@ R1
 R2
 R3
 R18
-l222
-L216
-V7TZalczSD8RFD9F63BjlY1
-!s100 =V`1P=IX9bMGnE_N1MezT1
+l243
+L237
+V@z><6jBbQTC_LoX9XZTdG2
+!s100 M7_eRLQ2oJYZR]?CKa4e^2
 R7
 32
 R8
@@ -482,10 +482,10 @@ Pup_pack
 R1
 R2
 R3
-R31
+R32
 R4
-Z36 8F:/VHDL/Enib/labo2/work/up_pack.vhd
-Z37 FF:/VHDL/Enib/labo2/work/up_pack.vhd
+Z37 8F:/VHDL/Enib/labo2/work/up_pack.vhd
+Z38 FF:/VHDL/Enib/labo2/work/up_pack.vhd
 l0
 L22
 V<WCGOhcB_?<DLbzR>C<133
@@ -495,8 +495,8 @@ R7
 R8
 !i10b 1
 R9
-Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/up_pack.vhd|
-Z39 !s107 F:/VHDL/Enib/labo2/work/up_pack.vhd|
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|F:/VHDL/Enib/labo2/work/up_pack.vhd|
+Z40 !s107 F:/VHDL/Enib/labo2/work/up_pack.vhd|
 !i113 1
 R12
 R13
@@ -514,8 +514,8 @@ R7
 R8
 !i10b 1
 R9
-R38
 R39
+R40
 !i113 1
 R12
 R13

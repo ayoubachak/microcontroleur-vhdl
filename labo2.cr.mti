@@ -51,4 +51,16 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling package body up_pack
 -- Loading package up_pack
 
+} {} {}} F:/VHDL/Enib/labo2/work/mu0_mem.vhd {1 {vcom -work work -2002 -explicit -stats=none F:/VHDL/Enib/labo2/work/mu0_mem.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mu0_mem
+-- Compiling architecture arch_mu0_mem of mu0_mem
+-- Loading package up_pack
+-- Loading entity mu0
+-- Loading entity ram0
+
 } {} {}}
